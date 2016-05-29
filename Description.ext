@@ -1,0 +1,28 @@
+#include "Zen_FrameworkFunctions\Zen_DialogSystem\Zen_Dialog.hpp"
+class CfgNotifications {
+    #include "Zen_FrameworkFunctions\Zen_TaskSystem\Zen_TaskNotifications.hpp"
+};
+
+class Header
+{
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 4;
+};
+
+DisabledAI = 1;
+aiKills = 1;
+
+respawn = "BASE";
+enableTeamSwitch = 0;
+respawnDelay = 10;
+
+corpseManagerMode = 1;
+corpseLimit = 50;
+corpseRemovalMinTime = 600;
+corpseRemovalMaxTime = 1200;
+
+wreckManagerMode = 1;
+wreckLimit = 30;
+wreckRemovalMinTime = 900;
+wreckRemovalMaxTime = 1800;
